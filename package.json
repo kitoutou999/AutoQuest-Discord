@@ -1,0 +1,44 @@
+{
+  "name": "discord-ptb-custom-injector",
+  "version": "1.0.0",
+  "description": "A powerful injector for Discord PTB that adds custom functionality through a burger menu interface",
+  "main": "src/install.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "inject": "node src/install.js",
+    "remove": "node src/uninstall.js",
+    "clean": "rimraf dist releases/DiscordCustom-*.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/discord-ptb-custom-injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/discord-ptb-custom-injector/issues"
+  },
+  "homepage": "https://github.com/yourusername/discord-ptb-custom-injector#readme",
+  "keywords": [
+    "discord",
+    "discord-ptb",
+    "injector",
+    "custom-menu",
+    "quest-auto-complete",
+    "discord-mod",
+    "electron",
+    "asar"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@electron/asar": "^3.2.0"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^5.11.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "win32"
+  ]
+}

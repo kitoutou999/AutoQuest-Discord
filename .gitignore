@@ -1,1 +1,57 @@
+# Temporary directories
 /temp_asar
+node-portable/
+
+# Node
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+node-temp.zip
+
+# Build outputs - Keep dist/ for development, releases/ is committed
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backups
+*.backup
+*.bak
+
+# Local environment files
+.env
+.env.local
+
+# Test files
+test/
+*.test.js
+
+# Documentation builds
+docs/_build/
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+
+# Debug
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
